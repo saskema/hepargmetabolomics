@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT24.6887S" endTime="PT24.6887S">
+    <parentFile fileName="file:///C:\Users\Sascha Manier\Desktop\Spektren_raw/aPEP_Medium_PH_neg_M295T25_10eV.raw"
+                fileType="RAWData"
+                fileSha1="72e1d949362bd2189c99592f42018a811fd1df40"/>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.10875"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="30"
+          polarity="-"
+          retentionTime="PT24.6887S"
+          collisionEnergy="10.0"
+          lowMz="50.204479217529"
+          highMz="298.643737792969"
+          basePeakMz="226.965972900391"
+          basePeakIntensity="1.66919e05"
+          totIonCurrent="4.390582665417e05">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">294.9531</precursorMz>
+      <peaks compressionType="none"
+             compressedLen="0"
+             precision="32"
+             byteOrder="network"
+             contentType="m/z-int">QkjRY0OhRwFCTyAfQ8gbNUJklC1Dt3QoQmUMvkOzLV1CgAeyQ9R1/0KE0nNDuIlGQov5F0O7XblCjHyoRRuiDEKMfbxEJQWHQox+eUVM+NhCl3IRQ7o2u0Kk8fdDu6QmQqYFZEPOlTJCp1phQ7wYaEKtXfxD1heJQq5zJkPB6bpC5flkRMHrEUL2vW1Dv6AEQvvRIEPhbe1DAfYZQ9xQlkMNy/9Dvwg4Qxdv5kO7ULlDHvpgR/CwBkNJSypD4de5Q0qMqUO92AhDTDcKQ8Kt90NhMQJD+2wLQ2L3SkgjAcFDY/d2RG2tV0OVUmZDwGMZ</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">813</offset>
+  </index>
+  <indexOffset>1841</indexOffset>
+  <sha1>52e611421ed56af59b053e20d2f611cb2256c664</sha1>
+</mzXML>

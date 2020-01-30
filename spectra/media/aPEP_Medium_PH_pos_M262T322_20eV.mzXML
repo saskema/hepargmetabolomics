@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT322.997S" endTime="PT322.997S">
+    <parentFile fileName="file:///C:\Users\Sascha Manier\Desktop\Spektren_raw/aPEP_Medium_PH_pos_M262T322_20eV.raw"
+                fileType="RAWData"
+                fileSha1="581f86a5d0191b7393d780dbce87d770924d5d64"/>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.10875"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="245"
+          polarity="+"
+          retentionTime="PT322.997S"
+          collisionEnergy="20.0"
+          lowMz="50.078464508057"
+          highMz="284.180114746094"
+          basePeakMz="244.205627441406"
+          basePeakIntensity="63906.0"
+          totIonCurrent="2.329498222603e05">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">262.2167</precursorMz>
+      <peaks compressionType="none"
+             compressedLen="0"
+             precision="32"
+             byteOrder="network"
+             contentType="m/z-int">QkhQWUJQRtFCSILrQnOy9EJJYExCYks0QkuPTkJnsnxCTGYTQk5nzkJM41lCZWdEQk28+0Jb/5pCTj86Qma8SUJPLRVCUYNFQlDKsEJUdltCUWQnQliu6kJT85hCaoOMQlYLk0JVJytCVoXGQmXsF0JYAoZCWZOZQltYJkJRGktCXDhYQtc900Jc7ORCUiEhQmEg6UJYwZVCZNdyQlKM50JlKZVChXH0QmYEH0JT9fJCZhnDQnNwYUJoJm9Chhd+Qmrgb0JlsQxCbbG6QmE54kJvSlRCV3c5Qm9LcEJdl7dCcGFZQlzdxkJ3hXVCcCi3QnlhS0KFLndCeeZ4QoZxAkJ7U75CWAHVQn0h7kJUAlRCfd4oQn4oa0J+oBVCSpDLQn6m1UJ8dA5CfsgMQmI//kJ/RmpCRcphQoJG5kJYh1BCgshHQmTCsUKDTWZCYJ5kQoOXjUJnuAlCg+XgQmkQLkKEKThCXfGaQoSxUkJS6llChdZ2Qmi1nkKF16BCV5vxQoYcJUKEz1VChnXuQoF2D0KHSZBCRy9LQok9uEKSFWlCiZNaQlP2pUKKJChEGxd8QowhuES+1KRCjG+zQmyUQkKM7RBDlm8RQozt8UUfjjJCjO5TRBadmEKM7shE8C3YQozvZkOF3UNCjX06QldDmkKN86JCZBZ5Qo4sKkPDSnlCjrU5Qlk5IkKPiPJCb4XXQo/w/EJitAJCkCm6RrwF6EKRKgtCUxO0QpW6TEJtcolClfgDQpIR7kKXn4NChjkhQp4LEEJS83RCnhwAQwRE/0KfNsRCUePwQqEdEUJrUgtCofPtQnQ/0EKiIahCU+s8QqIkGEM6+81CpNJKQm3ZoUKmGXdCV6Z7QqYsC0EuNPNCpnxKQmyrpUKoKbFEWh6PQqkHp0J8UldCqiF0Qwg030KqNBNDSqUyQqpwlUJoASpCq1DAQl1Zq0Ks8BtCYJZKQq4W6EGMXQRCruVKQn+/r0KvsVJCb3C6Qq+2XEJQWsxCsMl3QlLQ70KyJIRCZ6UvQrYb/0WVLJdCuB2pQ4O/fkK4oq9Cb/1+Qrld+EKIwVRCulIiQnqPUEK6V2VCeWaVQrv/pUJrIURCviwJRDOL70K/Z2lCjy0dQsDyhEJyHi5CwQVZQm66YkLGFsRD27sKQsYpYUMLNcdCxjuBQoLOCULH3iJCYtAfQsh+/EKB8kRCyNZYQniLJkLJiXdCUCxqQsoevEMbgShCynXWQoI43ELK1KlCVNDFQsw7gUJzU8VCzKUpQlWLhELPHUdCgzP8QtBnakJGIe9C0cibQoce70LSI+xErcMfQtN3dEKSk3lC1Dw+QmR7dULUch5CW3YfQtYZUUS+l5FC1ivuQt9HjULWUxhCZEgqQtc/lEJfbdxC160hQm+gskLZw4ZCU5gxQt4Wqz+V+19C30WRQmn/O0LfwcNCTHg+QuIxVkJ3vBhC5W6LQnQdHkLojAJCWCTmQunmVEJx6gxC6iPYRSpoBkLqYt1CcS1mQu9HWUJyK9JC8iE+RALSfEL6MTVDjh8hQvzl0kKEGWFC/TtZQmEl70L+OWVCRXUYQv+34UJqR0dDAczDQlvmGkMDFeFEiehEQwcRZUJSlzBDB1jEQoFLOUMIF+JCYG8/QwmoAkJZ4f5DCjA5QmmQQkMMlS9CYxIMQw1b/EJskvFDDa8LQmQTd0MPEC5ChgA3QxAUhkKDG/FDEFXHQnctfEMQoe9ChCxuQxIpk0J5xH9DElwOQm/cwkMTOjZCZLZMQxUniUJvd+dDFxNSQtPcNUMXc8BCfaynQxoow0Kmg+hDHXQeQoIWDkMeLcFCbRb6Qx95zEJtSKlDIgHYQmJ4f0MjHJFCACOcQyNf5UJaCrBDI22yQnelpEMlhq9CXPR8QykH9UJ5GixDKRX1QoRsI0Mrps9ChpMJQywMhkKAyt9DLBy9QnS5ikMsjNhClMAGQyych0Jk2lpDLR6nRlClI0MuIKtE/h9NQzEgg0KHojxDMxQKQnHBbkM0d/tCZSUKQzVI4UJrZxBDNlYoQoVBVUM2ptpCYmupQzaqKkJi3JBDOE0PQm0Al0M5Hh5CJB5PQz8klESYaRpDP/QfQoga4UNAw51CZ3q8Q0Dy5EKEWx5DQXHWQnQ4cUNC9MRCg85UQ0bzVkJqvzRDShiTQnbv70NKODlCbZhpQ0pG8EJtXs5DSwTGQlkQv0NPFfRCdhm2Q1GrTEJuZZlDVnMiQoWxfENaQDlCctS6Q1qsHkJ1jqpDWtlbQl3hFENbxMlCZIQaQ18YHEJdojpDYEsKQm5uv0NhstBCWI8UQ2MaxUKfimlDaOG6QoEZFENrrDZCZ1cyQ2wqzUKCTOFDbvQDQs7MbENy8VRBxeSqQ3Nvx0JnqKRDdDSkR3miukN2G6lCaqZnQ3bpBkOJoSpDd/LAQI3oBEN/untChmIXQ4H7P0JxqNBDgoc+Ql+0+0OCmP5Ci18mQ4KjfkJx3w9DgwsLQpjbKUODC41CuDOhQ4MN3UJLhn5DgxowQ41SIUODG7RGD2ELQ4R140G89V5DiMJXQmc/FEOKnNtCmIsMQ4tGHEJhJg9DjBprQns0q0OMRB9CYo5FQ4zbTUKdXzdDjhcOQoRFAg==</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">814</offset>
+  </index>
+  <indexOffset>4136</indexOffset>
+  <sha1>df8dd20b427eb39b7a1ede108df93e90f5acecea</sha1>
+</mzXML>
